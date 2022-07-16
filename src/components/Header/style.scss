@@ -1,0 +1,33 @@
+
+nav {
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+
+    .to-be-hidden {
+        a:hover {
+            color: red;
+            opacity: 1;
+            transform: scale(1.06);
+            transition: transform 1s cubic-bezier(0.5, 1, 0.32, 0.1);
+
+        }
+    }
+
+
+
+}
+
+
+#svg {
+    // background: white;
+    display: block;
+    font: 9.5em 'Montserrat';
+    width: 180px;
+    height: 100px;
+    margin: 0 auto;
+}
